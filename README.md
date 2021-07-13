@@ -1,36 +1,20 @@
-# Blog Sitesi Yönetim Paneli
+# Modal
 
-> Yönetim panelinden giriş yaparak siteye yazı ekleyerek crud işlemleri yapabilir, yöneticileri ve editörleri atayabilir, kullanıcıları engelleyebilirsiniz. Temel bir blade template'de repo'da mevcuttur.
+> It's a basic reusable popup modal.  
 
 ![screenshot](./app_screenshot.png)
 
 ## Built With
 
-- PHP,
-- Laravel, Bulma
+- HTML, CSS, JavaScript
 
 ## Getting Started
 
-Projeyi çalıştırmak için aşağıdaki adımları sırayla uygulayınız.
+To get a local copy up and running follow these simple example steps.
 
-1. Aşağıdaki komutları terminalden çalıştırın.
+``` git clone https://github.com/emirsagit/modal.git ```
 
-```git clone https://github.com/emirsagit/blog.git```
-```cd blog```
-```composer install```
-```npm install```
-```php artisan key:generate```
-```cp .env.exemple .env```
-
-2. .env'yi açın. Database bilgilerinizi doğru olarak girin.
-
-3. ```php artisan migrate --seed``` komutunu çalıştırın.
-
-4. Tarayıcı ile /register sayfasına giderek üyeliğinizi oluşturun.
-
-5. Phpmyadmin ya da arzu ettiğiniz database yönetim programını kullanarak users tablosunda üyelik oluşturduğunuz kişiyi bularak role_id satırına '3' yazın ve kaydedin. (Super admin yetkisi için)
-
-6. Tarayıcı ile /admin sayfasına giderek sitenizi yönetebilirsiniz.
+``` cd modal ```
 
 ## Authors
 
@@ -50,11 +34,6 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Thanks to [admin-one](https://github.com/user/repo/blob/branch/other_file.md) free version admin template
-
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-# modal
